@@ -2,10 +2,12 @@
 #define TRANSPORT_H
 #include<iostream>
 #include <string>
+using namespace std;
+
 
 class Transport {
 public:
-    Transport(std::string name);
+    Transport(string name);
 
     virtual double calculateTime(int passengers, int cargo) const = 0;
     virtual double calculateCost(int passengers, int cargo) const = 0;
@@ -13,7 +15,7 @@ public:
     void displayInfo() const;
 
 protected:
-    std::string name;
+    string name;
 };
 
 #endif

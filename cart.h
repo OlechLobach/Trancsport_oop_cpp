@@ -2,6 +2,8 @@
 #define CART_H
 #include<iostream>
 #include "transport.h"
+using namespace std;
+
 
 class Cart : public Transport {
 public:

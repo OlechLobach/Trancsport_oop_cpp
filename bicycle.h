@@ -2,6 +2,8 @@
 #define BICYCLE_H
 #include<iostream>
 #include "transport.h"
+using namespace std;
+
 
 class Bicycle : public Transport {
 public:

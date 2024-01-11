@@ -8,20 +8,20 @@ int main() {
     Cart cart;
 
     car.displayInfo();
-    std::cout << "Transport Time: " << car.calculateTime(5, 200) << " hours" << std::endl;
-    std::cout << "Transport Cost: " << car.calculateCost(5, 200) << " UAH" << std::endl;
+    cout << "Transport Time: " << car.calculateTime(5, 200) << " hours" << endl;
+    cout << "Transport Cost: " << car.calculateCost(5, 200) << " UAH" << endl;
 
-    std::cout << std::endl;
+    cout << endl;
 
     bicycle.displayInfo();
-    std::cout << "Transport Time: " << bicycle.calculateTime(2, 50) << " hours" << std::endl;
-    std::cout << "Transport Cost: " << bicycle.calculateCost(2, 50) << " UAH" << std::endl;
+    cout << "Transport Time: " << bicycle.calculateTime(2, 50) << " hours" << endl;
+    cout << "Transport Cost: " << bicycle.calculateCost(2, 50) << " UAH" << endl;
 
-    std::cout << std::endl;
+    cout << endl;
 
     cart.displayInfo();
-    std::cout << "Transport Time: " << cart.calculateTime(8, 100) << " hours" << std::endl;
-    std::cout << "Transport Cost: " << cart.calculateCost(8, 100) << " UAH" << std::endl;
+    cout << "Transport Time: " << cart.calculateTime(8, 100) << " hours" << endl;
+    cout << "Transport Cost: " << cart.calculateCost(8, 100) << " UAH" << endl;
 
     return 0;
 }

@@ -2,6 +2,8 @@
 #define CAR_H
 #include<iostream>
 #include "transport.h"
+using namespace std;
+
 
 class Car : public Transport {
 public:
